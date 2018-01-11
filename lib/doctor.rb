@@ -9,8 +9,8 @@ attr_reader :name, :appoinments
     @appointments = []
   end
 
-  def add_appointment # (date)
-
+  def add_appointment(appointment) # (date)
+    @appointments << appointment
   end
 
 end
