@@ -11,7 +11,7 @@ attr_reader :name
 
   def add_song(song)
     @songs << song
-    # binding.pry
+    binding.pry
     self.songs = song
   end
 
