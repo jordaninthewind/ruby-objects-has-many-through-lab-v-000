@@ -10,6 +10,7 @@ attr_reader :name, :appointments
 
   def add_appointment(appointment)
     @appointments << appointment
+    appointment.doctor.appointments << appointment
     binding.pry
   end
 
