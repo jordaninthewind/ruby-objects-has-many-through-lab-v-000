@@ -13,4 +13,7 @@ attr_reader :name, :appoinments
     @appointments << appointment
   end
 
+  def patients
+    self.appointments.collect {|el| el.name}.uniq
+  end
 end
