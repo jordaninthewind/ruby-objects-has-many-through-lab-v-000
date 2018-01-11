@@ -9,6 +9,6 @@ attr_reader :name, :appointments
   end
 
   def add_appointment(appointment)
-
+    @appoinments << appointment
 
 end
