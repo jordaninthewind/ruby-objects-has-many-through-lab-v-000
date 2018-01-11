@@ -6,8 +6,8 @@ attr_accessor :patient
 
   def initialize(date, doctor)
     @date = date
-    # @doctor = doctor
-    self.doctor = doctor
+    @doctor = doctor
+    # self.doctor = doctor
   end
 
 
