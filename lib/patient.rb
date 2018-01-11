@@ -13,7 +13,7 @@ attr_reader :name, :appointments, :doctors
     @appointments << appointment
     appointment.patient = self
     appointment.doctor.appointments << appointment
-    self.doctors <<
+    self.doctors << appointment.doctor
     # binding.pry
   end
 
