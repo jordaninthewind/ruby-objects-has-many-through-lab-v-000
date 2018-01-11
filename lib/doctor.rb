@@ -2,7 +2,7 @@ require 'pry'
 
 class Doctor
 attr_accessor
-attr_reader :name, :appointments
+attr_reader :name, :appointments, :patient
 
   def initialize(name)
     @name = name
@@ -14,7 +14,7 @@ attr_reader :name, :appointments
   end
 
   def patients
-    binding.pry
+    # binding.pry
     self.appointments.collect {|el| el.name}.uniq
   end
 end
