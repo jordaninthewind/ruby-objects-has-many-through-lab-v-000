@@ -8,4 +8,5 @@ attr_reader :date, :doctor
     @doctor = doctor
   end
 
+  
 end
