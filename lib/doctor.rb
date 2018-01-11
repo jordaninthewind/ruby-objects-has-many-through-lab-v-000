@@ -14,7 +14,7 @@ attr_reader :name, :appointments, :patient
   end
 
   def patients
-    # binding.pry
+    binding.pry
     self.appointments.collect {|el| el.name}.uniq
   end
 end
