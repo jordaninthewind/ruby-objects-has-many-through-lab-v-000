@@ -9,7 +9,7 @@ attr_accessor
 
   end
 
-  def add_appointment(date)
+  def add_appointment # (date)
 
   end
 
