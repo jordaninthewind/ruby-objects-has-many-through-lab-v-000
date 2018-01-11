@@ -2,6 +2,7 @@ require 'pry'
 
 class Doctor
 attr_accessor
+attr_reader :name, :appoinments
 
   def initialize(name)
     @name = name
